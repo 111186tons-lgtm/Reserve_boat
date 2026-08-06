@@ -1,0 +1,25 @@
+BOAT RESERVE V6.3 - STABLE PUBLIC ADDRESS
+
+The temporary trycloudflare.com address is no longer used as the main solution.
+Your browser/VPN route blocks that address even though the local server is healthy.
+
+ONE-TIME SETUP:
+1. Run SETUP_STABLE_PUBLIC_ACCESS.cmd.
+2. Allow Administrator access.
+3. Tailscale will be installed if needed.
+4. Sign in through the browser.
+5. Approve Funnel if Tailscale asks for it.
+6. Wait until a stable https://...ts.net address is shown.
+
+NORMAL START AFTER THAT:
+1. Run START_PUBLIC_SITE_AND_BOT.cmd.
+2. Keep the window open.
+3. Open @SPB_boat_bot and send /start or /admin.
+
+The stable ts.net address remains the same across restarts. The application and database
+still run only on this laptop. When the laptop is off, the site is unavailable.
+
+VPN NOTE:
+A full-system VPN can conflict with any second VPN-style network driver. For the most
+reliable setup, use a proxy inside Telegram and TELEGRAM_PROXY_URL for the bot instead
+of routing the entire Windows system through a full-tunnel VPN.

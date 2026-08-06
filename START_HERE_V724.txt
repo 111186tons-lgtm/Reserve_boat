@@ -1,0 +1,9 @@
+BOAT RESERVE V7.2.4 — AUTO PORT CLEANUP
+
+1. Extract the ZIP into a new folder.
+2. Run START_ALL.cmd.
+3. The launcher automatically stops stale Boat Reserve processes from older folders.
+4. It tries port 8787 first and automatically uses 8788-8800 if needed.
+5. No registration is required.
+
+If Windows still reports a conflict, run CLEAN_OLD_BOAT_RESERVE_PROCESSES.cmd once, then START_ALL.cmd.

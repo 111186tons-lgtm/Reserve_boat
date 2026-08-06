@@ -1,0 +1,14 @@
+Boat Reserve v7.2.1 mobile fix
+
+Automated test result: 36 passed.
+Checked:
+- Telegram HTTPS Web App buttons;
+- global menu refresh when cosmetic profile setup is disabled;
+- per-chat /start menu refresh;
+- primary and backup route strategy;
+- Tailscale primary with Cloudflare backup;
+- Cloudflare primary with Pinggy backup;
+- public FastAPI health endpoint;
+- booking, payment, Google Sheets and dispatcher regression tests.
+
+Windows tunnel processes cannot be executed in this Linux build environment. The Windows launcher code is covered by parser and route-selection tests.

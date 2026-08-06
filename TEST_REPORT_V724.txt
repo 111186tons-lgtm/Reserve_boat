@@ -1,0 +1,8 @@
+Boat Reserve V7.2.4 — AUTO PORT CLEANUP
+
+Automated tests: 40 passed.
+Python syntax check: passed.
+Port fallback test: passed; occupied 8787 is skipped and a free port in 8788-8800 is selected.
+Local smoke test: GET /health returned status=ok, version=7.2.4.
+
+Windows-only CMD launch, stale-process cleanup and public tunnel creation cannot be executed in the Linux validation environment. The corresponding Python logic and command files were inspected and tested where platform-independent.

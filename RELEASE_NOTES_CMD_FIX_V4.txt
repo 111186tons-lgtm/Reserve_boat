@@ -1,0 +1,6 @@
+SPB_boat CMD launcher fix V4
+
+All Windows .cmd launchers are now ASCII-only and use CRLF line endings.
+This prevents Windows cmd.exe from interpreting fragments of Russian UTF-8 text as commands.
+The launchers now use pushd for paths and work when the extracted project folder contains spaces.
+Run START_BOT_ONLY.cmd, then use DIAGNOSE_TELEGRAM_NETWORK.cmd if the network test fails.

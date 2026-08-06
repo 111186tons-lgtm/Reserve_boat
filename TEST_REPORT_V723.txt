@@ -1,0 +1,15 @@
+Boat Reserve V7.2.3 — NO REGISTRATION
+
+Automated tests: 38 passed.
+Python compile check: passed.
+Local Uvicorn smoke test: passed.
+GET /health: status=ok, version=7.2.3.
+
+Public tunnel changes:
+- Pinggy is primary and requires no account.
+- Current *.pinggy-free.link URLs are recognized.
+- Cloudflare Quick Tunnel is the independent backup.
+- Tailscale setup is not called by START_ALL.cmd.
+- FIX_MOBILE_ACCESS.cmd no longer installs or opens Tailscale.
+
+Windows public tunnels cannot be opened inside the Linux test container; their process launch is covered by parser and routing tests.

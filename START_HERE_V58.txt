@@ -1,0 +1,12 @@
+﻿BOAT RESERVE V5.8
+
+1. Полностью распакуйте ZIP в отдельную папку.
+2. Закройте окна старых версий Boat Reserve.
+3. Запустите STOP_BOAT_RESERVE.cmd.
+4. Запустите START_PUBLIC_SITE_AND_BOT.cmd.
+5. Не закрывайте главное окно, пока сайт и бот должны работать.
+
+В этой версии исправлена ошибка PowerShell:
+The property 'Count' cannot be found on this object.
+
+Виртуальная среда создаётся автоматически. START_BOT_ONLY.cmd заранее запускать не нужно.

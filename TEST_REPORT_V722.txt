@@ -1,0 +1,15 @@
+Boat Reserve v7.2.2 public tunnel fix
+
+Automated tests: 38 passed
+Python compileall: passed
+Local Uvicorn smoke test: passed
+Health response: status=ok, version=7.2.2
+Launch page provider detection: passed for localhost.run
+
+Not executable in this Linux build environment:
+- Windows CMD/PowerShell elevation flow
+- cloudflared.exe network tunnel
+- Windows OpenSSH tunnel
+- Tailscale Funnel login/approval
+
+These Windows/network paths are covered by parser, selection and failover unit tests, but final provider reachability depends on the user's Windows network, VPN, DNS and provider availability.

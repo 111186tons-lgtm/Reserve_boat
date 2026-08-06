@@ -1,0 +1,9 @@
+BOAT RESERVE V6.2
+
+1. Fully extract the ZIP.
+2. Run STOP_BOAT_RESERVE.cmd once.
+3. Run START_PUBLIC_SITE_AND_BOT.cmd.
+4. Keep the window open.
+5. Use the local launch page that opens automatically.
+
+The first launch installs Python packages. Later launches skip installation unless requirements.txt changes.

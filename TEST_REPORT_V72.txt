@@ -1,0 +1,31 @@
+Boat Reserve V7.2 verification
+
+Base archive: user-provided working V7.1 activity/group/payment build.
+Original content preserved: YES. All 199 original files are present logically.
+One legacy ZIP filename with broken encoding was normalized to:
+КАК_ПОЛУЧИТЬ_TELEGRAM_ID.txt
+Its file content is byte-for-byte identical to the original.
+
+Additional V7.2 files:
+START_ALL.cmd
+STOP_ALL.cmd
+START_HERE_V72.txt
+RELEASE_NOTES_V72_FULL_WORKING.md
+PROJECT_MANIFEST_V72.sha256
+TEST_REPORT_V72.txt
+
+Python tests: 33 passed.
+Python syntax: 59 files parsed successfully.
+Application smoke test: PASSED.
+GET /health: status=ok, version=7.2.0.
+Bundled database was not modified during the smoke test.
+New Telegram token location: .env only.
+Old revoked token: not found in the build.
+Telegram getMe network verification: NOT COMPLETED because the isolated build
+environment could not resolve api.telegram.org. This is a network/DNS limitation,
+not an application startup error.
+
+Windows launcher strategy:
+START_ALL.cmd -> START_PUBLIC_SITE_AND_BOT.cmd -> scripts/public_launcher.py
+This is the same launcher architecture as the working V7.1; the failed V7.2
+PowerShell launcher is not included.

@@ -1,0 +1,3 @@
+BOAT RESERVE V7.2.3
+
+Use START_ALL.cmd. No registration is required. Pinggy is primary and Cloudflare is backup. Send /start to the bot after every restart and use the newest button.
